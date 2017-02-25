@@ -1,0 +1,17 @@
+class LanczosArg lanczos_arg = {
+RitzMatType RitzMat_lanczos   =  MATPCDAG_MATPC
+RitzMatType RitzMat_convcheck =  MATPCDAG_MATPC
+double mass = 0.1 
+int nk_lanczos_vectors = 20
+int nt_lanczos_vectors = 20
+int np_lanczos_vectors = 4
+double eigen_shift = 0.0
+double stop_residual = 1e-18
+int maxiters = 5
+int save = 1
+int conv_check = 1
+string results = "lanczos.dat"
+string file = "eigenvectors/eig4dee"
+bool matpoly_arg = 0
+}
+
